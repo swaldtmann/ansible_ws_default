@@ -1,4 +1,5 @@
 ---
 # tasks file for ansible_ws_default
 - name: Debug dump vars
-  debug: {{ ansible_facts }}
+  debug: 
+    var: hostvars
